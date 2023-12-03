@@ -11,14 +11,8 @@
         padding: 0;
     }
 
-    header {
-            background-color: #0FB784;
-            color: #fff;
-            text-align: center;
-	    margin-top: 5px;
-	    padding: 20px;
-            position: relative;
-    }
+    header {background-color: #0FB784; color: #fff; text-align: center; margin-top: 5px; padding: 20px;  position: relative;
+
 
     #logo {
             position: absolute;
@@ -51,79 +45,18 @@
 	   }
   
      nav {
-            background-color: #108769;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            width: 100%;
-            top: 0;
-        }
-
-      nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 20px;
-        }
-
-
-
-      .row { overflow: hidden; }
+            background-color: #108769; color: #fff; text-align: center;  padding: 10px;   position: fixed;    width: 100%;     top: 0; }  nav a {     color: #fff;     text-decoration: none;     margin: 0 20px  }.row { overflow: hidden; }
 
     /* Set the container width */
-     .container {
-      	    width: 90%; /* Adjust as needed */
-            margin: auto; /* Center the container */
-            text-align: center
-        }
-
-    /* Clear the float to ensure proper wrapping */    
-    .row::after {
-            content: "";
-            display: table;
-            clear: both;
-        }
-  </style>
-</head>
-<body>
-   <header>
-        <img id="logo" src="planet express.png" alt="Logo">
-        <h1>Planet Express Team</h1>
-    </header>
-
-    <nav>
-        <a href="#">Back to Earth</a>
-        <a href="#">Missions</a>
-        <a href="#">Contact</a>
-    </nav>
-
-
-  <div class="container">
-    <!-- First Row -->
-    <div class="row">
-      <section class="team-member">
-        <img src="professor_farnsworth 4.jpg" alt="Team Member 1">
-        <h2> Professor Hubert J. Farnsworth</h2>
-      </section>
-      <section class="team-member">
-        <img src="Fry.jfif" alt="Team Member 2">
-        <h2>Philip J.Fry </h2>
-      </section>
-      <section class="team-member">
-        <img src="turanga-leela 1.png" alt="Team Member 3">
-        <h2>Turanga Leela</h2>
-      </section>
-      <section class="team-member">
-        <img src="bender 2.jpg" alt="Team Member 4">
-        <h2>Bender Bending Rodríguez</h2>
-      </section>
-    </div>
-
-    <!-- Second Row -->
-    <div class="row">
-      <section class="team-member">
-	<p>"Good news, everyone!" </p>
-	<p> Self-described mad scientist - creator of courier service Planet Express. Senile, amoral, deranged and unpredictable old man with a gift for creating doomsday devices and atomic supermen. He has put at least one parallel universe in peril with his inventions and visited dozens more.</p>
+     .container {  width: 90%; /* Adjust as needed */      margin: auto; /* Center the container */  text-align: center }
+    /* Clear the float to ensure proper wrapping */     .row::after { content: "";display: table;  clear: both;} </style>
+</head><body>
+ <header> <img id="logo" src="planet express.png" alt="Logo"> <h1>Planet Express Team</h1> </header> <nav><ahref="#">Back to Earth</a> <a href="#">Missions</a>   <a href="#">Contact</a></nav>
+  <div class="container"><!-- First Row --> <div class="row"> <section class="team-member">  <img src="professor_farnsworth 4.jpg" alt="Team Member 1"> <h2> Professor Hubert J. Farnsworth</h2>
+      </section> <section class="team-member">
+        <img src="Fry.jfif" alt="Team Member 2"> <h2>Philip J.Fry </h2> </section> <section class="team-member"><img src="turanga-leela 1.png" alt="Team Member 3"> <h2>Turanga Leela</h2>  </section>  <section class="team-member"> <img src="bender 2.jpg" alt="Team Member 4"> <h2>Bender Bending Rodríguez</h2>
+      </section>  </div>
+ <!-- Second Row --> <div class="row"> <section class="team-member"><p>"Good news, everyone!" </p><p> Self-described mad scientist - creator of courier service Planet Express. Senile, amoral, deranged and unpredictable old man with a gift for creating doomsday devices and atomic supermen. He has put at least one parallel universe in peril with his inventions and visited dozens more.</p>
       </section>
       <section class="team-member">
 	<p>"Shut up and take my money!"</p>
